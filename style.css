@@ -123,17 +123,16 @@ body {
         overflow: hidden;
     }
     .mainContainer{
-        width: 100%;
-        overflow: hidden;
-        display: block;
+        display: grid;
+        place-items: center;
     }
-    .clock {
-        width: 400px;
-        height: 400px;
-        background-color: rgba(255, 255, 255, .8);
-        border-radius: 50%;
-        border: 2px solid black;
-        position: relative;
+    .clock{
+      width: 350px;
+      height: 350px;
+      background-color: rgba(255, 255, 255, .8);
+      border-radius: 50%;
+      border: 2px solid black;
+      position: relative;
     }
     .container{
         padding: 10px;
